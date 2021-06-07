@@ -33,9 +33,14 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+			<groupId>com.vladmihalcea</groupId>
+			<artifactId>hibernate-types-52</artifactId>
+			<version>2.10.1</version>
+		</dependency>
+		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
+			<version>42.2.20</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
